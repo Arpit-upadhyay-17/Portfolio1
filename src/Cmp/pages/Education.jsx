@@ -7,15 +7,15 @@ import { AnimationContext } from '../..';
 const Education = () => {
   const [ one , two ] = useContext(AnimationContext)
 
-  const graduation = [
+  const education = [
     {
       institute : "ST. ALOYSIUS INSTITUTE OF TECHNOLOGY JABALPUR",
-      course : "B.tech",
+      course : "B.Tech",
       specifcation : "Computer Science",
       grade : "A"
     },
     {
-      institute : "ST. THOMAS HIGHER SECONDARY SCHOOL BARELA",
+      institute : "ST. THOMAS HIGHER SECONDARY SCHOOL JABALPUR",
       course : "12th",
       specifcation : "",
       grade : "71.3%"
@@ -54,7 +54,7 @@ const Education = () => {
     
     <motion.div className="education" variants={one} initial="hidden" animate="visible"  >
         {
-          graduation.map( (div , index) => <ChildDiv  div={div} key={index} /> )
+          education.map( (div , index) => <ChildDiv  div={div} key={index} /> )
         }
     </motion.div>
   )
