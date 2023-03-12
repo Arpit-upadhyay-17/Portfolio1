@@ -80,8 +80,21 @@ li , a {
   }
 
   li , a{
-    padding-right: 15px;
+    padding-right: 0px;
   }
+}
+.p-head a{
+  display: flex;
+  gap: 5px;
+  align-items: center;
+}
+.p-head a img{
+  width: 35px;
+  background-color: #181818;
+  border-radius: 50px;
+  border-top-right-radius: 15px;
+  border-bottom-right-radius: 15px;
+  border-bottom-left-radius: 15px;
 }
 
 .not-found{
@@ -100,6 +113,6 @@ li , a {
   nav{
     grid-template-columns: 1fr;
     gap: 10px;
-    border-radius: 50px;
+    /* border-radius: 50px; */
 }
 }

@@ -2,7 +2,7 @@ import React from 'react'
 
 const Blog = () => {
   return (
-    <div>Blog</div>
+    <div><br /><center>This page is in under Maintainance</center></div>
   )
 }
 

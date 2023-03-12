@@ -1,6 +1,7 @@
 import React , { useState } from 'react'
 import { Link } from 'react-router-dom';
 import { BsSun , BsFillSunFill } from "react-icons/bs"
+import  Logo  from "./logo1.jpg" ;
 
 const Navbar = () => {
 
@@ -39,7 +40,7 @@ const Navbar = () => {
   return (
     <nav>
         <div className="nav-heading">
-            <p> <Link to="/" >Arpit Upadhyay</Link> </p>
+            <p className='p-head' > <Link to="/" > <img src={Logo}  alt="logo" /> Arpit Upadhyay</Link> </p>
         </div>
         <div className="nav-links">
                 <li  onClick={handleClick} id="toggle" > { toggle ? <><BsFillSunFill className='toggleIcon' size="25px" /> Light</> :<><BsSun className='toggleIcon' size="25px" /> Dark</>  } </li>

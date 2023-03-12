@@ -19,9 +19,9 @@ const Intro = () => {
         exit={{ scale : 0 , transition : "1.5s"  }}
       className="intro-div-one">
         <div className="introduction">
-            <h1>MERN Stak Developer</h1>
+            <h1>Hey there , I am <b style={{ color : "rgba(26, 140, 255, 0.695)" }} >Arpit Upadhyay</b></h1>
             <br />
-            <p>Hey there , I am <b style={{ color : "rgba(26, 140, 255, 0.695)" }} >Arpit Upadhyay</b> psum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book</p>
+            <p>I am a student of B.Tech Computer Science 8<sup>th</sup> sem in SAIT college Jabalpur. I am preparing for Full-Stack-Developer role. I have good knowledge of React-JS and Node-Js, Express-Js. </p>
         </div>
         <br />
         <div className="intro-links">

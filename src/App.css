@@ -220,6 +220,36 @@
     background: #32063857;
 }
 
+
+.Projects li { 
+    list-style: number;
+    font-size: 20px;
+}
+
+.project{
+    background-color: #3206381c;
+}
+
+.training{
+    font-size: 18px;
+}
+
+.social-media-links{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+
+.social-media-links a { 
+    transition: all 0.25s;
+    padding: 0;
+}
+.social-media-links a:hover{
+    color:rgba(26, 140, 255, 0.695) ;
+}
+
+
 .footer{
     max-width: 1200px;
     margin: auto;
@@ -228,6 +258,9 @@
     width: 90vw;
     display: flex;
     align-items: center;
+}
+.footer center{
+    width: 100%;
 }
 
 
@@ -259,6 +292,7 @@
 
     .nav-links{
         justify-content: center;
+        gap: 10px;
     }
     
     .sidebar ul {
