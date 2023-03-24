@@ -9,7 +9,7 @@ const Projects = () => {
   return (
     <motion.div variants={one} initial="hidden" animate="visible" className="skills project">
            
-              <ol className='Ol' >
+              <ol className='Ol' style={{ padding : "28px" }} >
              <motion.p  variants={two}  className='Projects' > 
                 <li>Image Downloader</li>
                 <li>E-commerce Website ( Frontend only )</li>

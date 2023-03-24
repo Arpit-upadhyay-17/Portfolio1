@@ -6,7 +6,7 @@ const Training = () => {
   const [ one , two ] = useContext(AnimationContext);
 
   return (
-    <motion.div variants={one} initial="hidden" animate="visible" className="skills project">
+    <motion.div variants={one} initial="hidden" animate="visible" className="skills project" style={{ padding : "28px" }} >
            
               <ol className='Ol' >
              <motion.p  variants={two}  className='Projects' > 
