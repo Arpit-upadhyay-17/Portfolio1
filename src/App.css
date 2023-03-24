@@ -330,5 +330,8 @@
     .sidebar ul li a:hover{
         left: 0px
     }
+   .skill, .skills{
+	align-items : flex-start;
+	}
 
 }
